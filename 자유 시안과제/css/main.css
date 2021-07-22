@@ -1,0 +1,53 @@
+
+#Header {position:fixed;top:0;left:0;width:100%;padding:60px;z-index:999;}
+
+#Header .container {display:flex;}
+#Header nav {margin-right:100px;}
+#Header nav ul {display:flex;padding:50px;margin-left:300px;}
+#Header nav ul li {padding:0 15px;position:relative;font-size:18px;}
+#Header .container img {width:50%;}
+
+.m01 .container .txt {position:relative;top:220px;left:600px; padding-top:50px}
+.m01 .container h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
+.m01 .container p {font-size:15px;font-weight:500;opacity:0;transform:translateY(100px);}
+
+.m01.on .container h3 {opacity:1;transform:translateY(0);transition:1s;}
+.m01.on .container p {opacity:1;transform:translateY(0);transition:1s 0.5s;}
+
+.m02 .container .txt {position:relative;top:200px;left:500px; padding-top:50px}
+.m02 .container h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
+.m02 .container p {font-size:15px;font-weight:500;opacity:0;transform:translateY(100px);}
+
+.m02.on .container h3 {opacity:1;transform:translateY(0);transition:1s;}
+.m02.on .container p {opacity:1;transform:translateY(0);transition:1s 0.5s;}
+
+
+.m03 .container .txt {position:relative;top:50px;left:1400px;padding-top:170px;}
+.m03 .container h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
+.m03 .container p {font-size:15px;font-weight:500;opacity:0;transform:translateY(100px);}
+
+.m03.on .container h3 {opacity:1;transform:translateY(0);transition:1s;}
+.m03.on .container p {opacity:1;transform:translateY(0);transition:1s 0.5s;}
+
+
+.m04 .container .txt {position:relative;top:50px;left:1400px;padding-top:200px;}
+.m04 .container h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
+.m04 .container p {font-size:15px;font-weight:500;opacity:0;transform:translateY(100px);}
+
+.m04.on .container h3 {opacity:1;transform:translateY(0);transition:1s;}
+.m04.on .container p {opacity:1;transform:translateY(0);transition:1s 0.5s;}
+
+
+.section .container figure img {position:fixed;display:flex;width:100%;height:100%;}
+.section .container figure h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
+
+
+
+
+
+
+
+
+
+
+
