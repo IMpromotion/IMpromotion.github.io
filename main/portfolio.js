@@ -8,7 +8,7 @@ $("#main").fullpage({
         // console.log(destination.index)
         $(".section").eq(destination.index).addClass("on").siblings().removeClass("on");
         $("nav li").eq(destination.index).addClass("on").siblings().removeClass("on");
-        if(destination.index===4) {
+        if(destination.index===5) {
             $("footer").css({color:"#fff"})
         }else{
             $("footer").removeAttr("style")
@@ -42,6 +42,15 @@ $(".m02 .xi-pause").on("click", function(){
 $(".m02 .xi-play").on("click", function(){
     $(".m02_video").trigger("play");
 });
+
+$(".m03 .xi-pause").on("click", function(){
+    $(".m03_video").trigger("pause");
+});
+
+$(".m03 .xi-play").on("click", function(){
+    $(".m03_video").trigger("play");
+});
+
 
 $(".pt_slider").slick({
     arrows:false,

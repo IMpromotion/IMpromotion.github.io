@@ -3,11 +3,12 @@
 
 #Header .container {display:flex;}
 #Header nav {margin-right:100px;}
-#Header nav ul {display:flex;padding:50px;margin-left:300px;}
-#Header nav ul li {padding:0 15px;position:relative;font-size:18px;}
+#Header nav ul {display:flex;padding:20px;margin-left:70px;}
+#Header nav ul li {padding:0 50px;position:relative;font-size:18px;}
 #Header .container img {width:50%;}
 
-.m01 .container .txt {position:relative;top:220px;left:600px; padding-top:50px}
+
+.m01 .container .txt {position:relative;top:220px;left:500px;padding-top:50px}
 .m01 .container h3 {font-size:40px;font-weight:700;margin-bottom:40px;opacity:0;transform:translateY(100px);}
 .m01 .container p {font-size:15px;font-weight:500;opacity:0;transform:translateY(100px);}
 
