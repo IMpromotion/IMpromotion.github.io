@@ -58,7 +58,7 @@ nav li.on a:after {width:100%;}
     .m01 .txt i {font-size:30px;}
 }
 
-.m02 {background:#F0F0F0}
+.m02 {background:#FDF6F0;color:#FFBD9B;}
 .m02 figure {position:relative;}
 .m02 figure img {width:100%;position:absolute;top:-20px;left:0;}
 
@@ -77,7 +77,7 @@ nav li.on a:after {width:100%;}
 /* .m03 {background:#333;}
 .m03 figure {order:2;background-image:url(../mockup.jpg);background-size:100% 100%;padding:30px;} */
 
-.m03 {background:#FAFAFA}
+.m03 {background:#EEEEEE;color:#8785A2;}
 .m03 figure {position:relative;order:2;padding:0px;}
 .m03 figure img {width:100%;position:absolute;top:-20px;left:0;}
 
@@ -171,7 +171,7 @@ footer .mbr {display:none;}
 #cover_nav .container>* {flex:1;padding:0 40px;}
 
 
-
+#cover_nav {background:#FDF6F0;}
 #cover_nav figure img {border-radius:50%;overflow:hidden;}
 #cover_nav .txt {margin:100px 0;}
 #cover_nav hr {margin:50px 0;border:none;border-top:1px dashed #999;}
