@@ -73,10 +73,15 @@ nav li.on a:after {width:100%;}
 
 
 @media (max-width:768px) {
-    .m02 figure {order:-1;background-size:100% 100%;}
 
-    .m03 figure {order:2;background-size:100% 100%;padding:100px;}
+    .m02 .pt_slider {margin:0 auto;width:auto;z-index:999;}
+    .m02 .pt_slider figure {padding:30px 10px;}
+    .m02 .pt_slider figure img {width:100%;border-radius:50%;}
     
+    .m02 {overflow:hidden;}
+    .m02 i {position:absolute;top:70%;left:50%;transform:translate(-50%,-50%) rotate(0);font-size:40px;cursor:pointer;z-index:1000;}
+
+
 }
 
 /* .m03 {background:#333;}
